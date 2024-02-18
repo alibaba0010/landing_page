@@ -1,0 +1,70 @@
+.header-body,
+.post-footer {
+  background-color: #1f2937;
+}
+.pre-footer {
+  background-color: #e5e7eb;
+}
+.logo {
+  width: 100px; /* Set the width */
+  height: 100px; /* Set the height */
+  /* border: 2px solid;  */
+  /* Add a border */
+  border-radius: 50%; /* Make it circular */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  */
+}
+.footer {
+  background-color: #3882f6;
+}
+.header {
+}
+.placeholder {
+  /* width: 20px; */
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+h3 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+#scondary-text,
+.header-texts,
+#placeholder-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.sign-up-1 {
+  background-color: #3882f6;
+  border-radius: 15px;
+  border: none;
+  color: #f9faf8;
+}
+.sign-up-2 {
+  background-color: #3882f6;
+  border-radius: 15px;
+  border: 3px #f9faf8;
+  color: #f9faf8;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+.box-text {
+  color: #3882f6;
+}
+#secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  /* margin-top: 0px; */
+}
+h4,
+#footer-text,
+.post-footer {
+  color: #e5e7eb;
+}
