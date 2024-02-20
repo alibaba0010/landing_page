@@ -1,4 +1,10 @@
-.header-body,
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", serif;
+}
 .post-footer {
   background-color: #1f2937;
 }
@@ -16,32 +22,27 @@
 .footer {
   background-color: #3882f6;
 }
-.header {
-}
+
 .placeholder {
-  /* width: 20px; */
+  height: 150px;
+  width: 30%;
+  border: none;
+  background: #82858b;
 }
 h2 {
   font-size: 36px;
   font-weight: bold;
   color: #1f2937;
 }
-h3 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #f9faf8;
-}
-#scondary-text,
-.header-texts,
-#placeholder-text {
-  font-size: 18px;
-  color: #e5e7eb;
-}
+
 .sign-up-1 {
   background-color: #3882f6;
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
+  width: 15%;
+  font-size: 14px;
   color: #f9faf8;
+  padding: 5px 10px;
 }
 .sign-up-2 {
   background-color: #3882f6;
@@ -67,4 +68,11 @@ h4,
 #footer-text,
 .post-footer {
   color: #e5e7eb;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  /* align-items: end; */
+  /* justify-content: space-between; */
 }
