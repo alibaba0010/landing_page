@@ -23,12 +23,6 @@ body {
   background-color: #3882f6;
 }
 
-.placeholder {
-  height: 150px;
-  width: 30%;
-  border: none;
-  background: #82858b;
-}
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -38,11 +32,11 @@ h2 {
 .sign-up-1 {
   background-color: #3882f6;
   border-radius: 10px;
-  border: none;
-  width: 15%;
+  border: 1px #3882f6;
+  width: 100px;
+  height: 50px;
   font-size: 14px;
   color: #f9faf8;
-  padding: 5px 10px;
 }
 .sign-up-2 {
   background-color: #3882f6;
@@ -59,11 +53,7 @@ h2 {
 .box-text {
   color: #3882f6;
 }
-#secondary-text {
-  font-size: 18px;
-  color: #e5e7eb;
-  /* margin-top: 0px; */
-}
+
 h4,
 #footer-text,
 .post-footer {
