@@ -5,9 +5,6 @@ body {
   padding: 0px;
   font-family: "Roboto", serif;
 }
-.post-footer {
-  background-color: #1f2937;
-}
 
 .logo {
   width: 100px; /* Set the width */
@@ -33,7 +30,7 @@ body {
 .sign-up-2 {
   background-color: #3882f6;
   border-radius: 10px;
-  width: 80px;
+  width: 120px;
   height: 40px;
   font-size: 12px;
   border: 2px solid #f9faf8;
@@ -50,8 +47,7 @@ body {
 }
 
 h4,
-#footer-text,
-.post-footer {
+#footer-text {
   font-size: 14px;
   color: #e5e7eb;
 }

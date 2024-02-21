@@ -32,3 +32,13 @@
   justify-content: space-around;
   align-content: center;
 }
+
+.post-footer {
+  font-size: 16px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
