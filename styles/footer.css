@@ -1,11 +1,23 @@
 .pre-footer {
   background-color: #e5e7eb;
   display: flex;
-  align-items: flex-end;
   justify-content: center;
-  flex-direction: row;
+  margin-bottom: 40px;
+  flex-direction: column;
 }
 .quote {
   font-size: 18px;
   font-weight: bold;
+}
+#quote-id {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 400px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  margin: 40px 60px;
+  border-radius: 5px;
 }
