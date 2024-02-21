@@ -1,0 +1,28 @@
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+.boxes {
+  width: 120px;
+  height: 140px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+.boxes_msgs {
+  display: flex;
+  justify-content: center;
+}
+.box_with_msg {
+  margin: 12px;
+}
+.box-text {
+  text-align: center;
+  font-size: 14px;
+}

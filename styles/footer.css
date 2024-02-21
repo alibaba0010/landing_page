@@ -1,0 +1,11 @@
+.pre-footer {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+}
+.quote {
+  font-size: 18px;
+  font-weight: bold;
+}
