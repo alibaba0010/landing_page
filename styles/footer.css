@@ -18,6 +18,17 @@
 }
 
 .footer {
-  margin: 40px 60px;
+  margin: 40px 80px;
   border-radius: 5px;
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_with_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
 }

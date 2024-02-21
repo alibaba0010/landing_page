@@ -24,7 +24,7 @@ body {
 .sign-up-1 {
   background-color: #3882f6;
   border-radius: 10px;
-  border: 1px #3882f6;
+  border: 2px #3882f6;
   width: 100px;
   height: 50px;
   font-size: 14px;
@@ -32,8 +32,11 @@ body {
 }
 .sign-up-2 {
   background-color: #3882f6;
-  border-radius: 15px;
-  border: 3px #f9faf8;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  border: 2px solid #f9faf8;
   color: #f9faf8;
 }
 .quote-text {
@@ -43,12 +46,13 @@ body {
   font-style: italic;
   color: #1f2937;
   font-weight: lighter;
-  align-content: center;
+  align-items: center;
 }
 
 h4,
 #footer-text,
 .post-footer {
+  font-size: 14px;
   color: #e5e7eb;
 }
 
@@ -57,4 +61,7 @@ ul {
   flex-direction: row;
   /* align-items: end; */
   /* justify-content: space-between; */
+}
+h4 {
+  margin-bottom: -15px;
 }
